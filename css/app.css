@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 20px;
+}
+.board-container {
+  margin: auto;
+}
+
+.cell {
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+}
+.hidden {
+  display: none;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(128, 128, 128, 0.7);
+  transform: translate(-50%, -50%);
+  max-width: 60rem;
+  color: aliceblue;
+  padding: 50px 150px;
+  /* transition: all 0.5s; */
+  z-index: 1000;
+}
+p {
+  font-size: 20px;
+  font-family: cursive;
+}
+.color {
+  background-color: blue;
+}
